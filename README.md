@@ -23,7 +23,9 @@ Time-Event:
 3:01 AM (Oct 21) AWS declared all services fully operational.                                                                       
 
 
-Sources: [AWS Status Page](https://status.aws.amazon.com/), The Register, Wired, TechCrunch, Engadget.
+Sources: [AWS Status Page](https://status.aws.amazon.com/), The Register, Wired, TechCrunch, Engadget.                              
+# https://www.wired.com/story/aws-cloud-outage-long-tail/                                                                           
+# https://www.theregister.com/2025/10/23/amazon_outage_postmortem/                                                                  
 
 # Root Cause (Simplified)
 
