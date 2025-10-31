@@ -17,10 +17,10 @@ Although the root defect was small, it triggered a cascade affecting dozens of d
 
 Time-Event:
 
-8:48 AM (Oct 20) Increased error rates and latency across several AWS services in US-EAST-1.
-9:26 AM (Oct 20) Root cause identified as DNS resolution failures for DynamoDB regional endpoints.
-11:24 AM (Oct 20) AWS mitigated the DNS issue and began restoring service.
-3:01 AM (Oct 21) AWS declared all services fully operational.
+8:48 AM (Oct 20) Increased error rates and latency across several AWS services in US-EAST-1.                                        
+9:26 AM (Oct 20) Root cause identified as DNS resolution failures for DynamoDB regional endpoints.                                  
+11:24 AM (Oct 20) AWS mitigated the DNS issue and began restoring service.                                                          
+3:01 AM (Oct 21) AWS declared all services fully operational.                                                                       
 
 
 Sources: [AWS Status Page](https://status.aws.amazon.com/), The Register, Wired, TechCrunch, Engadget.
