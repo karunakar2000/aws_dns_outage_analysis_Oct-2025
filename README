@@ -15,8 +15,8 @@ Although the root defect was small, it triggered a cascade affecting dozens of d
 
 # Timeline (PDT)
 
-| Time | Event |
-|------|--------|
+ Time  Event 
+
 | **11:48 PM (Oct 19)** | Increased error rates and latency across several AWS services in US-EAST-1. |
 | **12:26 AM** | Root cause identified as DNS resolution failures for DynamoDB regional endpoints. |
 | **2:24 AM** | AWS mitigated the DNS issue and began restoring service. |
