@@ -76,12 +76,12 @@ Result → DNS returned *NO IPs* for DynamoDB → clients couldn’t connect →
 
 # Small Diagram — Simplified Failure Chain
 
-      [DNS Automation Bug]                                                                                                                
+      DNS Automation Bug                                                                                                                
            ↓
-      [DynamoDB Endpoint Unresolvable]                                                                                                    
+      DynamoDB Endpoint Unresolvable                                                                                                    
             ↓
-      [Service Requests Fail]                                                                                                             
+      Service Requests Fail                                                                                                             
             ↓
-      [Dependent AWS Services Impacted]                                                                                                   
+      Dependent AWS Services Impacted                                                                                                   
             ↓
-      [Global App Outages]                                                                                                                
+      Global App Outages                                                                                                                
