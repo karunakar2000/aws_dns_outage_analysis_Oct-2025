@@ -8,7 +8,7 @@ Region: US-EAST-1 (Northern Virginia)
 # Summary
 
 On October 20 2025, multiple AWS services experienced elevated error rates and latency due to a *DNS resolution failure* within the internal systems supporting *Amazon DynamoDB* in the US-EAST-1 region.  
-The incident began around **8:48 AM SAST on 20-October-25** and was fully resolved by **Midnight on 20-October-25**.
+The incident began around **9:00 AM SAST on 20-October-25** and was fully resolved by **Midnight on 20-October-25**.
 
 Although the root defect was small, it triggered a cascade affecting dozens of dependent services and hundreds of high-traffic applications globally—demonstrating how subtle automation issues in large distributed systems can ripple across the internet.
 
@@ -75,13 +75,13 @@ Result → DNS returned *NO IPs* for DynamoDB → clients couldn’t connect →
 ----------------------------
 
 # Small Diagram — Simplified Failure Chain
-     text
-[DNS Automation Bug]                                                                                                                
-        ↓
-[DynamoDB Endpoint Unresolvable]                                                                                                    
-        ↓
-[Service Requests Fail]                                                                                                             
-        ↓
-[Dependent AWS Services Impacted]                                                                                                   
-        ↓
-[Global App Outages]                                                                                                                
+
+      [DNS Automation Bug]                                                                                                                
+           ↓
+      [DynamoDB Endpoint Unresolvable]                                                                                                    
+            ↓
+      [Service Requests Fail]                                                                                                             
+            ↓
+      [Dependent AWS Services Impacted]                                                                                                   
+            ↓
+      [Global App Outages]                                                                                                                
